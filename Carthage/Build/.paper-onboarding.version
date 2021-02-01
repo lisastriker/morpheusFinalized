@@ -8,11 +8,11 @@
   "tvOS" : [
 
   ],
-  "commitish" : "6.1.4",
+  "commitish" : "6.1.5",
   "iOS" : [
     {
       "name" : "PaperOnboarding",
-      "hash" : "f7e3e1ba0c329861145299edaf119b7adf8c1c7c135d6f260a08d51a8badefef",
+      "hash" : "bac1a27c3403147df7162c53d4ce55c279c9a8736094f840a031e36186f22aee",
       "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
     }
   ]

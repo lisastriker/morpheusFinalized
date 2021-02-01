@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import PaperOnboarding
 
 class ViewController: UIViewController {
 

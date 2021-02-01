@@ -4,6 +4,7 @@
 target 'drmorpheus' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  #use_modular_headers!
 
   # Pods for drmorpheus
 
@@ -18,4 +19,5 @@ target 'drmorpheus' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'AlamofireImage', '~> 4.1'
+  pod 'paper-onboarding'
 end

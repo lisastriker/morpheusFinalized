@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CAC044CD89716B67A2781E3 /* Pods_drmorpheus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9E1A21B0798DD2ED8FCEC8 /* Pods_drmorpheus.framework */; };
-		AA1269C86B7AE09BD1259BCF /* Pods_drmorpheusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231ED12ADE9C64110602F5DD /* Pods_drmorpheusTests.framework */; };
-		CEE453755636DDD014FDA1B1 /* Pods_drmorpheus_drmorpheusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF233226108838CE0A18EF0 /* Pods_drmorpheus_drmorpheusUITests.framework */; };
+		3DEB6461FE1040F620D8509C /* Pods_drmorpheus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562AB1C01E07B6ADEA818B65 /* Pods_drmorpheus.framework */; };
+		3E8865E0C1AF01D45F6FA07E /* Pods_drmorpheusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5683E73E3DB5F799F21AE8AF /* Pods_drmorpheusTests.framework */; };
+		8079205ACDB73788ECCCF4D4 /* Pods_drmorpheus_drmorpheusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26DF5111BF9554391833603 /* Pods_drmorpheus_drmorpheusUITests.framework */; };
 		EC2F736223FA795D00E7ED87 /* VideoAssessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2F736123FA795D00E7ED87 /* VideoAssessment.swift */; };
 		EC347AE323C5AE8600F785EA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC347AE223C5AE8600F785EA /* Media.xcassets */; };
-		EC347AEA23C5B63300F785EA /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC347AE723C5B53200F785EA /* PaperOnboarding.framework */; };
-		EC347AEB23C5B63300F785EA /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC347AE723C5B53200F785EA /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EC45E50024CE6C7000B77840 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC45E4FF24CE6C7000B77840 /* GoogleService-Info.plist */; };
 		EC6E809D238BB9DA000A53AF /* DrugDosingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E809C238BB9DA000A53AF /* DrugDosingScreen.swift */; };
 		EC6E809F238BC1A3000A53AF /* LearningBotScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E809E238BC1A3000A53AF /* LearningBotScreen.swift */; };
@@ -29,7 +27,6 @@
 		ECB503C923855769002EBD06 /* drmorpheusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB503C823855769002EBD06 /* drmorpheusUITests.swift */; };
 		ECC386F123FA810F00E61295 /* VideoAssessmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC386F023FA810F00E61295 /* VideoAssessmentTableViewCell.swift */; };
 		ECD0991A24D15305004564E1 /* QuizCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0991924D15305004564E1 /* QuizCategories.swift */; };
-		ECD4C07F23C31079005E1FAD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD4C07E23C31079005E1FAD /* OnboardingView.swift */; };
 		ECF3A712239A348A00F191AC /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3A711239A348A00F191AC /* Video.swift */; };
 		ECF3A716239A519D00F191AC /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3A715239A519D00F191AC /* VideoTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -51,34 +48,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		EC347AEC23C5B63300F785EA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				EC347AEB23C5B63300F785EA /* PaperOnboarding.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0B9E1A21B0798DD2ED8FCEC8 /* Pods_drmorpheus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drmorpheus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		231ED12ADE9C64110602F5DD /* Pods_drmorpheusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drmorpheusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58DB0C6ADD3918403EDC0C3A /* Pods-drmorpheus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheus.debug.xcconfig"; path = "Target Support Files/Pods-drmorpheus/Pods-drmorpheus.debug.xcconfig"; sourceTree = "<group>"; };
-		6471A0558A0B06945F362C02 /* Pods-drmorpheus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheus.release.xcconfig"; path = "Target Support Files/Pods-drmorpheus/Pods-drmorpheus.release.xcconfig"; sourceTree = "<group>"; };
-		7EF233226108838CE0A18EF0 /* Pods_drmorpheus_drmorpheusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drmorpheus_drmorpheusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F998A978A2A400616032761 /* Pods-drmorpheusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheusTests.debug.xcconfig"; path = "Target Support Files/Pods-drmorpheusTests/Pods-drmorpheusTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFD588A73D0A8C1FF92D0BED /* Pods-drmorpheusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheusTests.release.xcconfig"; path = "Target Support Files/Pods-drmorpheusTests/Pods-drmorpheusTests.release.xcconfig"; sourceTree = "<group>"; };
-		D8730F7D954A56947CFC99AA /* Pods-drmorpheus-drmorpheusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheus-drmorpheusUITests.debug.xcconfig"; path = "Target Support Files/Pods-drmorpheus-drmorpheusUITests/Pods-drmorpheus-drmorpheusUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8E7D5C65B50A85C457185D7 /* Pods-drmorpheus-drmorpheusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheus-drmorpheusUITests.release.xcconfig"; path = "Target Support Files/Pods-drmorpheus-drmorpheusUITests/Pods-drmorpheus-drmorpheusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2BD635034A757CA3A80117A9 /* Pods-drmorpheusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheusTests.release.xcconfig"; path = "Target Support Files/Pods-drmorpheusTests/Pods-drmorpheusTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B18E8DFCA59840CEF47C6EB /* Pods-drmorpheus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheus.release.xcconfig"; path = "Target Support Files/Pods-drmorpheus/Pods-drmorpheus.release.xcconfig"; sourceTree = "<group>"; };
+		562AB1C01E07B6ADEA818B65 /* Pods_drmorpheus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drmorpheus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5683E73E3DB5F799F21AE8AF /* Pods_drmorpheusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drmorpheusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA06B7DB8BE1C7D87EB0EE5B /* Pods-drmorpheusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheusTests.debug.xcconfig"; path = "Target Support Files/Pods-drmorpheusTests/Pods-drmorpheusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBD48A77D9AEDD73DF5937B3 /* Pods-drmorpheus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheus.debug.xcconfig"; path = "Target Support Files/Pods-drmorpheus/Pods-drmorpheus.debug.xcconfig"; sourceTree = "<group>"; };
+		C6DF625CF6F2EC503CCB70CB /* Pods-drmorpheus-drmorpheusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheus-drmorpheusUITests.release.xcconfig"; path = "Target Support Files/Pods-drmorpheus-drmorpheusUITests/Pods-drmorpheus-drmorpheusUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EC2F736123FA795D00E7ED87 /* VideoAssessment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAssessment.swift; sourceTree = "<group>"; };
 		EC347AE223C5AE8600F785EA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		EC347AE723C5B53200F785EA /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
 		EC45E4FF24CE6C7000B77840 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC50E24B25C7F968009D060C /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
 		EC6E39C023A8EDF800F91B6C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6E809C238BB9DA000A53AF /* DrugDosingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugDosingScreen.swift; sourceTree = "<group>"; };
 		EC6E809E238BC1A3000A53AF /* LearningBotScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningBotScreen.swift; sourceTree = "<group>"; };
@@ -101,9 +82,10 @@
 		ECB503CA23855769002EBD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECC386F023FA810F00E61295 /* VideoAssessmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAssessmentTableViewCell.swift; sourceTree = "<group>"; };
 		ECD0991924D15305004564E1 /* QuizCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCategories.swift; sourceTree = "<group>"; };
-		ECD4C07E23C31079005E1FAD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		ECF3A711239A348A00F191AC /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		ECF3A715239A519D00F191AC /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		F26DF5111BF9554391833603 /* Pods_drmorpheus_drmorpheusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drmorpheus_drmorpheusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1AADA03DFE474D5085ED20 /* Pods-drmorpheus-drmorpheusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drmorpheus-drmorpheusUITests.debug.xcconfig"; path = "Target Support Files/Pods-drmorpheus-drmorpheusUITests/Pods-drmorpheus-drmorpheusUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC347AEA23C5B63300F785EA /* PaperOnboarding.framework in Frameworks */,
-				7CAC044CD89716B67A2781E3 /* Pods_drmorpheus.framework in Frameworks */,
+				3DEB6461FE1040F620D8509C /* Pods_drmorpheus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA1269C86B7AE09BD1259BCF /* Pods_drmorpheusTests.framework in Frameworks */,
+				3E8865E0C1AF01D45F6FA07E /* Pods_drmorpheusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE453755636DDD014FDA1B1 /* Pods_drmorpheus_drmorpheusUITests.framework in Frameworks */,
+				8079205ACDB73788ECCCF4D4 /* Pods_drmorpheus_drmorpheusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,12 +119,12 @@
 		C150D0508D5638C0C6F33EEC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				58DB0C6ADD3918403EDC0C3A /* Pods-drmorpheus.debug.xcconfig */,
-				6471A0558A0B06945F362C02 /* Pods-drmorpheus.release.xcconfig */,
-				D8730F7D954A56947CFC99AA /* Pods-drmorpheus-drmorpheusUITests.debug.xcconfig */,
-				D8E7D5C65B50A85C457185D7 /* Pods-drmorpheus-drmorpheusUITests.release.xcconfig */,
-				9F998A978A2A400616032761 /* Pods-drmorpheusTests.debug.xcconfig */,
-				AFD588A73D0A8C1FF92D0BED /* Pods-drmorpheusTests.release.xcconfig */,
+				BBD48A77D9AEDD73DF5937B3 /* Pods-drmorpheus.debug.xcconfig */,
+				4B18E8DFCA59840CEF47C6EB /* Pods-drmorpheus.release.xcconfig */,
+				FD1AADA03DFE474D5085ED20 /* Pods-drmorpheus-drmorpheusUITests.debug.xcconfig */,
+				C6DF625CF6F2EC503CCB70CB /* Pods-drmorpheus-drmorpheusUITests.release.xcconfig */,
+				AA06B7DB8BE1C7D87EB0EE5B /* Pods-drmorpheusTests.debug.xcconfig */,
+				2BD635034A757CA3A80117A9 /* Pods-drmorpheusTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,10 +132,10 @@
 		EC347AE623C5B53200F785EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EC347AE723C5B53200F785EA /* PaperOnboarding.framework */,
-				0B9E1A21B0798DD2ED8FCEC8 /* Pods_drmorpheus.framework */,
-				7EF233226108838CE0A18EF0 /* Pods_drmorpheus_drmorpheusUITests.framework */,
-				231ED12ADE9C64110602F5DD /* Pods_drmorpheusTests.framework */,
+				EC50E24B25C7F968009D060C /* PaperOnboarding.framework */,
+				562AB1C01E07B6ADEA818B65 /* Pods_drmorpheus.framework */,
+				F26DF5111BF9554391833603 /* Pods_drmorpheus_drmorpheusUITests.framework */,
+				5683E73E3DB5F799F21AE8AF /* Pods_drmorpheusTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,7 +181,6 @@
 				ECB503A623855767002EBD06 /* AppDelegate.swift */,
 				ECB503A823855768002EBD06 /* SceneDelegate.swift */,
 				ECB503AA23855768002EBD06 /* ViewController.swift */,
-				ECD4C07E23C31079005E1FAD /* OnboardingView.swift */,
 				ECB503AC23855768002EBD06 /* Main.storyboard */,
 				EC347AE223C5AE8600F785EA /* Media.xcassets */,
 				ECB503AF23855769002EBD06 /* Assets.xcassets */,
@@ -242,12 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB503CD23855769002EBD06 /* Build configuration list for PBXNativeTarget "drmorpheus" */;
 			buildPhases = (
-				B00C51E991630445832247E7 /* [CP] Check Pods Manifest.lock */,
+				6E1D75486B71E53BB416F1A5 /* [CP] Check Pods Manifest.lock */,
 				ECB5039F23855767002EBD06 /* Sources */,
 				ECB503A023855767002EBD06 /* Frameworks */,
 				ECB503A123855767002EBD06 /* Resources */,
-				EC347AEC23C5B63300F785EA /* Embed Frameworks */,
-				66986D98D001AFC353F1EA1E /* [CP] Embed Pods Frameworks */,
+				D821AA7CFA5F73B207970F29 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,7 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB503D023855769002EBD06 /* Build configuration list for PBXNativeTarget "drmorpheusTests" */;
 			buildPhases = (
-				0D67DDD8C1DC1DEC9DD820A9 /* [CP] Check Pods Manifest.lock */,
+				0EFFC2278BA8785C3E1A65D1 /* [CP] Check Pods Manifest.lock */,
 				ECB503B523855769002EBD06 /* Sources */,
 				ECB503B623855769002EBD06 /* Frameworks */,
 				ECB503B723855769002EBD06 /* Resources */,
@@ -281,11 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB503D323855769002EBD06 /* Build configuration list for PBXNativeTarget "drmorpheusUITests" */;
 			buildPhases = (
-				77E119A3BB260C776EF5BE37 /* [CP] Check Pods Manifest.lock */,
+				23ED275DA91EB47CCED91AA6 /* [CP] Check Pods Manifest.lock */,
 				ECB503C023855769002EBD06 /* Sources */,
 				ECB503C123855769002EBD06 /* Frameworks */,
 				ECB503C223855769002EBD06 /* Resources */,
-				8097857330450FB20A0E83C9 /* [CP] Embed Pods Frameworks */,
+				A8492DBA13E9FEE8F295F1DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,7 +283,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "NUS Anaesthesia ";
 				TargetAttributes = {
 					ECB503A223855767002EBD06 = {
@@ -370,7 +349,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D67DDD8C1DC1DEC9DD820A9 /* [CP] Check Pods Manifest.lock */ = {
+		0EFFC2278BA8785C3E1A65D1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,24 +371,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66986D98D001AFC353F1EA1E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-drmorpheus/Pods-drmorpheus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-drmorpheus/Pods-drmorpheus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-drmorpheus/Pods-drmorpheus-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		77E119A3BB260C776EF5BE37 /* [CP] Check Pods Manifest.lock */ = {
+		23ED275DA91EB47CCED91AA6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,24 +393,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8097857330450FB20A0E83C9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-drmorpheus-drmorpheusUITests/Pods-drmorpheus-drmorpheusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-drmorpheus-drmorpheusUITests/Pods-drmorpheus-drmorpheusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-drmorpheus-drmorpheusUITests/Pods-drmorpheus-drmorpheusUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B00C51E991630445832247E7 /* [CP] Check Pods Manifest.lock */ = {
+		6E1D75486B71E53BB416F1A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,6 +415,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A8492DBA13E9FEE8F295F1DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-drmorpheus-drmorpheusUITests/Pods-drmorpheus-drmorpheusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-drmorpheus-drmorpheusUITests/Pods-drmorpheus-drmorpheusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-drmorpheus-drmorpheusUITests/Pods-drmorpheus-drmorpheusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D821AA7CFA5F73B207970F29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-drmorpheus/Pods-drmorpheus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-drmorpheus/Pods-drmorpheus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-drmorpheus/Pods-drmorpheus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -480,7 +459,6 @@
 				ECB503AB23855768002EBD06 /* ViewController.swift in Sources */,
 				ECB503A723855767002EBD06 /* AppDelegate.swift in Sources */,
 				ECF3A716239A519D00F191AC /* VideoTableViewCell.swift in Sources */,
-				ECD4C07F23C31079005E1FAD /* OnboardingView.swift in Sources */,
 				EC7A88D424CE8A300080696B /* MCQuiz.swift in Sources */,
 				ECB503A923855768002EBD06 /* SceneDelegate.swift in Sources */,
 				ECF3A712239A348A00F191AC /* Video.swift in Sources */,
@@ -547,7 +525,7 @@
 		ECB503CB23855769002EBD06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -570,6 +548,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -609,7 +588,7 @@
 		ECB503CC23855769002EBD06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -632,6 +611,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -664,55 +644,67 @@
 		};
 		ECB503CE23855769002EBD06 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58DB0C6ADD3918403EDC0C3A /* Pods-drmorpheus.debug.xcconfig */;
+			baseConfigurationReference = BBD48A77D9AEDD73DF5937B3 /* Pods-drmorpheus.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = AVAR66VKJ2;
+				ENABLE_HARDENED_RUNTIME = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = drmorpheus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks\"";
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nus.drmorpheus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Debug;
 		};
 		ECB503CF23855769002EBD06 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6471A0558A0B06945F362C02 /* Pods-drmorpheus.release.xcconfig */;
+			baseConfigurationReference = 4B18E8DFCA59840CEF47C6EB /* Pods-drmorpheus.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = AVAR66VKJ2;
+				ENABLE_HARDENED_RUNTIME = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = drmorpheus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks\"";
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nus.drmorpheus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Release;
 		};
 		ECB503D123855769002EBD06 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F998A978A2A400616032761 /* Pods-drmorpheusTests.debug.xcconfig */;
+			baseConfigurationReference = AA06B7DB8BE1C7D87EB0EE5B /* Pods-drmorpheusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -734,7 +726,7 @@
 		};
 		ECB503D223855769002EBD06 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFD588A73D0A8C1FF92D0BED /* Pods-drmorpheusTests.release.xcconfig */;
+			baseConfigurationReference = 2BD635034A757CA3A80117A9 /* Pods-drmorpheusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -756,7 +748,7 @@
 		};
 		ECB503D423855769002EBD06 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8730F7D954A56947CFC99AA /* Pods-drmorpheus-drmorpheusUITests.debug.xcconfig */;
+			baseConfigurationReference = FD1AADA03DFE474D5085ED20 /* Pods-drmorpheus-drmorpheusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -776,7 +768,7 @@
 		};
 		ECB503D523855769002EBD06 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8E7D5C65B50A85C457185D7 /* Pods-drmorpheus-drmorpheusUITests.release.xcconfig */;
+			baseConfigurationReference = C6DF625CF6F2EC503CCB70CB /* Pods-drmorpheus-drmorpheusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

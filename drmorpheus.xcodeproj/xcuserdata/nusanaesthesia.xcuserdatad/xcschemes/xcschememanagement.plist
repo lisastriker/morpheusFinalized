@@ -7,7 +7,25 @@
 		<key>drmorpheus.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>ECB503A223855767002EBD06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ECB503B823855769002EBD06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ECB503C323855769002EBD06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
